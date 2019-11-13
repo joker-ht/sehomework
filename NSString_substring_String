@@ -1,0 +1,51 @@
+/**类名_方法名(_形参类型)*
+ * @author: MF1933016+dingzhu
+ *  @className: NSString_substring_String
+ *  @apiSignature: NSString$func substring(from: Int) -> String;func substring(to: Int) -> String
+ *  @description: Test swift api NSString$substring(from: Int);substring(to: Int)
+ *  @Map: java.lang.String$public String substring (int beginIndex, int endIndex)
+ */
+import Foundation
+
+class NSString_substring_String{
+     /**
+     * input: 3
+     * class0 class0="helloworld"
+     * int int0=2
+     * int int1=6
+     * output: 2
+     * ret0  ret0="lloworld"
+     * ret1  ret1="llow"
+     */
+     static func substring0(){
+        var class0="helloworld";
+        var int0=2;
+        var int1=6;
+        var ret0=class0.substring(from;int0);
+        var ret1=ret0.substring(to;int1);
+        assert (class0=="helloworld");
+        assert (ret0=="lloworld");
+        assert (ret1=="llow");
+        print(ret1);
+      /**
+     * input: 3
+     * class0 class0="helloworld"
+     * int int0=2
+     * int int1=8
+     * output: 2
+     * ret0  ret0="lloworld"
+     * ret1  ret1="llowor"
+     */
+     static func substring0(){
+        var class0="helloworld";
+        var int0=2;
+        var int1=8;
+        var ret0=class0.substring(from;int0);
+        var ret1=ret0.substring(to;int1);
+        assert (class0=="helloworld");
+        assert (ret0=="lloworld");
+        assert (ret1=="llowor");
+        print(ret1);
+}
+NSString_substring_String.substring0()
+NSString_substring_String.substring1()
